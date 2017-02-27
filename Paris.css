@@ -1,0 +1,82 @@
+html {
+    line-height: 1.25; /* 2 */
+    -ms-text-size-adjust: 100%; /* 3 */
+    -webkit-text-size-adjust: 100%; /* 3 */
+}
+
+body {
+    background-image: url("image/whiteDot.jpg");
+    margin: 0;
+    font-size: 16px;
+}
+
+h1{
+    font-family: "ITC Clearface Std", sans-serif;
+}
+
+h2{
+    font-family:"Mona Lisa Solid ITC TT", serif;
+    padding: 30px;
+}
+
+a {
+    font-size: large;
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: teal;
+    text-decoration: underline;
+}
+
+p {
+    font-family: "Shree Devanagari 714", sans-serif;
+    font-size: 1em;
+}
+
+#pastry_div {
+    display: inline;
+    /*padding: 30px;*/
+}
+
+blockquote{
+    font-family: "Mona Lisa Solid ITC TT", sans-serif;
+    font-size: 150%;
+    color: darkblue;
+}
+
+.pastry {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+/*#header {*/
+    /*text-align:center;*/
+    /*padding:5px;*/
+/*}*/
+
+#nav {
+    line-height:50px;
+    background-color:#eeeeee;
+    opacity: 0.3;
+    width:160px;
+    height:500px;
+    float:left;
+    left:0;
+    padding:50px;
+}
+#section {
+    right:0;
+    width:100vh;
+    float:right;
+    padding:10px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    margin: 0 auto;
+}
